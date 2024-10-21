@@ -1,8 +1,6 @@
-def main():
-    """"Return an optional string of length eight
-    Args:
-        None
-    Returns:
-        str: return answer.
-    """
-    return 
+def main(n):
+    if len(n) == 8:
+        return (n)
+    else:
+        return ("8 ta bolishi kerak")
+print (main("12345678"))
