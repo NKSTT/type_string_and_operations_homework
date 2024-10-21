@@ -7,4 +7,7 @@ def main(s1,s2):
     Returns:
         str: return answer.
     """
-    return 
+    s1 = "python"
+    s2 = "coders"
+    return "{} {}".format(s1,s2)
+print (main(1,1))
