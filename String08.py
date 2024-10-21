@@ -1,10 +1,12 @@
 def main(first,last):
     """
-    Given two strings, first_name and last_name, return a single string in the format "last, first".
+    Return a string whose length is zero.
     Args:
-        first: str
-        last: str
+        None
     Returns:
         str: return answer.
     """
-    return 
+    first = "Otabek"
+    last = "Tursunov"
+    return "{}, {}".format(first,last)
+print (main(21,21))
